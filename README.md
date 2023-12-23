@@ -9,6 +9,7 @@ Shopping Trolley App is a simple web application that allows users to add items 
 - [File Structure](#file-structure)
 - [How to Use](#how-to-use)
 - [Firebase Configuration](#firebase-configuration)
+- [Live Demo](#live-demo)
 - [Contributing](#contributing)
 
 ## Features
@@ -59,6 +60,10 @@ const app = initializeApp(appSettings)
 const database = getDatabase(app)
 const shoppingListInDB = ref(database, "shoppingList")
 ```
+
+## Live Demo
+
+Check out the live demo [here](https://shopping-trolley.netlify.app).
 
 ## Contributing
 
